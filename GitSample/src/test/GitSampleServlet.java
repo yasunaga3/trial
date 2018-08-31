@@ -35,7 +35,8 @@ public class GitSampleServlet extends HttpServlet {
 	    out.println("<title>はじめてのサーブレット</title>");
 	    out.println("</head>");
 	    out.println("<body>");
-	    out.println("こんにちは、サーブレットの世界へ！！");
+	    out.println("こんにちは、サーブレットの世界へ！！<br/>");
+	    out.println("たこピッピ！！！！");
 	    out.println("</body>");
 	    out.println("</html>");
 	}
